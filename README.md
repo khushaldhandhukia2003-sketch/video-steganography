@@ -98,15 +98,12 @@ curl -X POST -F "file=@encoded_123.mp4" http://127.0.0.1:8000/decode
 
 ## 🧠 How It Works (Simplified)
 
-1. **Encoding:**
-   - The app reads frames using OpenCV.
-   - Your secret text is embedded as metadata in the frames (in a way invisible to the eye).
-   - The processed video is saved as an encoded file.
+🧠 How It Works (Simplified)
 
-2. **Decoding:**
-   - The app reads each frame again.
-   - It extracts and reconstructs the hidden text.
-   - The original message is displayed.
+1. Take a video.
+2. Encode a text or number inside the video.
+3. Record the encoded video using a mobile camera.
+4. Decode the hidden text or number from the recorded video.
 
 ---
 
