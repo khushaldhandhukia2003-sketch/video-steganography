@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env/
+*.log
+
+# IDE
+.vscode/
+
+# Videos & large files
+storage/
+*.mp4
