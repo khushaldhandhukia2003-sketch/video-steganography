@@ -10,6 +10,4 @@ venv/
 # IDE
 .vscode/
 
-# Videos & large files
-storage/
-*.mp4
+
